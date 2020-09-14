@@ -30,6 +30,4 @@ public class ConfigurationReader {
     // ConfigurationReader.getProperty("fb_email") --- > hamza@techproed.com
 
 
-
-
 }
