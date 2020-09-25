@@ -5,7 +5,7 @@ import com.techproed.utilities.ConfigurationReader;
 import com.techproed.utilities.TestBase;
 import org.testng.annotations.Test;
 
-public class FacabookLoginTest extends TestBase {
+public class FacebookLoginTest extends TestBase {
     @Test
     public void girisTesti(){
         driver.get("http://facebook.com");

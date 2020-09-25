@@ -21,6 +21,7 @@ public class ConfigurationReader {
             // fileInputStream'dan ürettiğim file dosyası burada, bunu kullanabilirsin
             properties.load(file);
         }catch (Exception e){
+
         }
     }
     //  properties.getProperty("username")  --> manager2
@@ -28,6 +29,4 @@ public class ConfigurationReader {
         return properties.getProperty(key);
     }
     // ConfigurationReader.getProperty("fb_email") --- > hamza@techproed.com
-
-
 }
